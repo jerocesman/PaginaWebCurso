@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+.section1{
+    background-image: url("../img/Sin título.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment:scroll;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.section1 li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+}
+.section1 li a:hover{
+    color: rgb(21, 255, 0);
+font-size: 45px;
+}
+
+/*LI*/
+.section2{
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+
+}
+/*BODY*/
+.section3 {
+    background-color: blue;
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+/*MAIN*/
+.section4 {
+    font-size: 35px;
+    border-style: ridge;   
+    border-width: 10px;
+    border-top: 50%;
+    margin: 50px;
+    color: rgb(51, 255, 0);
+    font-style: italic;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    background-color: black;
+    text-shadow: 6px 6px 5px rgb(51, 255, 0);
+
+}
+
+/*MAIN*/
+.section5 {
+    display: block;
+    margin-left: 325px;
+}
+/*MAIN*/
+.section6 {
+    font-size: 35px;
+    border-style: ridge;
+    border-width: 10px;
+    border-top: 10%;
+    margin: 10px;
+    color: rgb(255, 174, 0);
+    font-family: 'Gill Sans MT';
+    display: block;
+    margin-left: 35px;
+    background-image: url("../img/descarga (1).jpg");
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.section6a{
+    font-size: 35px;
+    border-style: ridge;
+    border-width: 10px;
+    border-top: 10%;
+    margin: 10px;
+    color: rgb(255, 174, 0);
+    font-family: 'Gill Sans MT';
+    display: block;
+    margin-left: 35px;
+    background-image: url("../img/descarga (1).jpg");
+    background-size: 420px;
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.section6b{
+    font-size: 35px;
+    border-style: ridge;
+    border-width: 10px;
+    border-top: 10%;
+    margin: 10px;
+    color: rgb(255, 174, 0);
+    font-family: 'Gill Sans MT';
+    display: block;
+    margin-left: 35px;
+    background-image: url("../img/descarga (2).jpg");
+    background-size: 420px;
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.section6c{
+    font-size: 35px;
+    border-style: ridge;
+    border-width: 10px;
+    border-top: 10%;
+    margin: 10px;
+    color: rgb(255, 174, 0);
+    font-family: 'Gill Sans MT';
+    display: block;
+    margin-left: 35px;
+    background-image: url("../img/descarga (3).jpg");
+    background-size: 510px;
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.section6d{
+    font-size: 35px;
+    border-style: ridge;
+    border-width: 10px;
+    border-top: 10%;
+    margin: 10px;
+    color: rgb(255, 174, 0);
+    font-family: 'Gill Sans MT';
+    display: block;
+    margin-left: 35px;
+    background-image: url("../img/descarga.jpg");
+    background-size: 430px;
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/*MAIN*/
+.section7 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 177, 38);
+    padding: 10px 10px 5px 10px;
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
+}
+
+/*MAIN*/
+.section8 {
+    font-size: 35px;
+    border-style: ridge;
+    text-align: center;
+    margin: 50px;
+    color: rgb(234, 0, 255);
+    font-family: 'Gill Sans MT';
+    background-image: url("../img/Sin título.jpg");
+    text-align: center;
+}
+
+.section9{
+    background-color: blue;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section10 {
+    font-size: 35px;
+    border-style: ridge;
+    text-align: left;
+    margin: 50px;
+    color: rgb(0, 255, 234);
+    font-family: 'Gill Sans MT';
+    width: 230px;
+    height: 150px;
+    text-align: center;
+    background-color: black;
+}
+
+.section7 li a:hover{
+    color: red;
+    font-size: 18px;
+
+}
+ .section15 p:first-child{
+    background-color: blue;
+    
+ }
+
+ .section15 p:first-child(2){
+    background-color: blue;
+    
+ }
+
+
+ .section16 p::before{
+content: "hola";
+background-color: black;
+color: yellow;
+ }
+
+ .section17 p::first-letter{
+    background-color: brown;
+ }
+
+.section18{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+/*flexbox*/
+
+ main{
+    display: flex;
+    flex: warp;
+ }
